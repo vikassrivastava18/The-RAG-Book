@@ -14,7 +14,6 @@ load_dotenv()
 
 client = anthropic.Anthropic()
 
-
 # Acme Corp Q3 Strategic Planning Memo.
 # In a real RAG system, this context would be retrieved from a vector database.
 ACME_MEMO = """
@@ -83,11 +82,12 @@ Follow these rules:
 
 # Same questions as no_rag.py for comparison.
 questions = [
-    "What was Product Alpha's Q2 revenue?",
-    "What is the monthly churn rate for Product Beta?",
-    "How many design partners are testing Product Gamma?",
-    "What is the Q3 revenue target for Acme Corporation?",
-    "What risks did Acme identify regarding Dataview Inc.?",
+    "What is the total Q2 revenue across all products?",
+    # "What was Product Alpha's Q2 revenue?",
+    # "What is the monthly churn rate for Product Beta?",
+    # "How many design partners are testing Product Gamma?",
+    # "What is the Q3 revenue target for Acme Corporation?",
+    # "What risks did Acme identify regarding Dataview Inc.?",
 ]
 
 print("=" * 70)
