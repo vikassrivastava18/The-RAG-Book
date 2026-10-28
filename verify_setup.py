@@ -8,6 +8,7 @@ Usage: python verify_setup.py
 
 import sys
 import os
+import ragas
 
 def check_python():
     v = sys.version_info
