@@ -158,6 +158,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+# Add custom venv
 ai_venv/
 
 # Spyder project settings
